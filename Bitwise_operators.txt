@@ -1,0 +1,38 @@
+Bitwise OR – |
+Bitwise OR operator | takes 2 bit patterns, and perform OR operations on each pair of corresponding bits. The following example will explain it.
+
+       1010
+       1100
+      --------
+OR     1110 
+      --------
+
+The Bitwise OR, will take pair of bits from each position, and if any one of the bit is 1, the result on that position will be 1. Bitwise OR is used to Turn-On bits as we will see in later sections.
+
+Bitwise AND – &
+Bitwise AND operator &, takes 2 bit patterns, and perform AND operations with it.
+
+       1010
+       1100
+      -------
+AND    1000
+      -------
+The Bitwise AND will take pair of bits from each position, and if only both the bit is 1, the result on that position will be 1. Bitwise AND is used to Turn-Off bits.
+
+One’s Complement operator – ~
+One’s complement operator (Bitwise NOT) is used to convert each “1-bit to 0-bit” and “0-bit to 1-bit”, in the given binary pattern. It is a unary operator i.e. it takes only one operand.
+
+       1001
+NOT
+      -------
+       0110
+      -------
+
+Bitwise XOR – ^
+Bitwise XOR ^, takes 2 bit patterns and perform XOR operation with it.
+
+       0101
+       0110
+      ------
+XOR    0011
+      ------
